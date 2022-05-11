@@ -1,18 +1,9 @@
 ## Purpose
 
-This simulator is designed to test UAV coverage problems. It incorporates a realistic energy model and physics model 
-as well as lots of options for configuration.
+This simulator is designed to test UAV path planning problems. It incorporates a realistic energy model and physics model as well as lots of options for configuration.
  
 ## Getting started
-The project is built with Maven, so you'll need that before starting. First navigate to an empty directory where you
- want to initialize the project, then:
-
-```
-git clone <this project>
-cd path-coverage-simulator
-```
-
-To compile and run the project (respectively) use:
+The project is built with Maven, so you'll need that before starting. To compile and run the project (respectively) use:
 ```
 mvn compile
 mvn exec:java
